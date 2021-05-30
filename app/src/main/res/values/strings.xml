@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GymClient</string>
+    <string name="services">
+         <br>
+             1)Free Nutritional Counseling
+            \n </br>
+        <br>2)Over 85 Free Group Fitness Classes
+            \n</br>
+        <br>
+             3)Variety of Equipment – 12 Different Lines
+            \n</br>
+        <br>
+            4)Gym Saltwater Pools
+            \n</br>
+
+        <br>
+             5)Free InBody Screenings </br>
+
+
+    </string>
+</resources>
