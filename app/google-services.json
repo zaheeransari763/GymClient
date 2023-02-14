@@ -1,42 +1,63 @@
 {
   "project_info": {
-    "project_number": "216193737290",
-    "firebase_url": "https://gymclient-a7ad7.firebaseio.com",
-    "project_id": "gymclient-a7ad7",
-    "storage_bucket": "gymclient-a7ad7.appspot.com"
+    "project_number": "146278520830",
+    "firebase_url": "https://gymapp-bbfe1-default-rtdb.firebaseio.com",
+    "project_id": "gymapp-bbfe1",
+    "storage_bucket": "gymapp-bbfe1.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:216193737290:android:da38c602771c74962cbcb3",
+        "mobilesdk_app_id": "1:146278520830:android:7be26b4fedce2a34cf92af",
         "android_client_info": {
           "package_name": "com.example.gymclient"
         }
       },
       "oauth_client": [
         {
-          "client_id": "216193737290-414dleoojj4c0t1g9f54frlmlce1mjan.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.gymclient",
-            "certificate_hash": "0c2f1a6feda43dc20237a06f18d3b01a123bd64a"
-          }
-        },
-        {
-          "client_id": "216193737290-inquer07bhuee2mg8f1htr79c5hu8sug.apps.googleusercontent.com",
+          "client_id": "146278520830-otk1hg6736fmv9g49moe3aadleemg50u.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDGoTDHBXrUI_gqaVkOSs5_FhGYFTzNP0M"
+          "current_key": "AIzaSyCaHEZdwRhpEvpaL7XKjDjat0IjReAafzU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "216193737290-inquer07bhuee2mg8f1htr79c5hu8sug.apps.googleusercontent.com",
+              "client_id": "146278520830-otk1hg6736fmv9g49moe3aadleemg50u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146278520830:android:8e041d80e498e001cf92af",
+        "android_client_info": {
+          "package_name": "com.example.gymowner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146278520830-otk1hg6736fmv9g49moe3aadleemg50u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaHEZdwRhpEvpaL7XKjDjat0IjReAafzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146278520830-otk1hg6736fmv9g49moe3aadleemg50u.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

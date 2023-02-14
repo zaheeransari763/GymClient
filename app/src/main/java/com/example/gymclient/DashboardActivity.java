@@ -12,10 +12,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 
 
@@ -24,6 +26,8 @@ public class DashboardActivity extends AppCompatActivity {
     private CardView exercise, trainers, profile, pay, about, logout;
     private FirebaseAuth mAuth;
     Dialog dialogframe;
+
+    FloatingActionButton chatbtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +42,8 @@ public class DashboardActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
 
+        chatbtn = findViewById(R.id.chat_button);
+
         exercise = (CardView) findViewById(R.id.exc);
         trainers = (CardView) findViewById(R.id.train);
         profile = (CardView) findViewById(R.id.prof);
@@ -45,6 +51,14 @@ public class DashboardActivity extends AppCompatActivity {
         about = (CardView) findViewById(R.id.abo);
         logout = (CardView) findViewById(R.id.log);
 
+        chatbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(DashboardActivity.this, Chatactivity.class);
+                startActivity(intent);
+                Toast.makeText(DashboardActivity.this, "Lets chat", Toast.LENGTH_LONG).show();
+            }
+        });
         exercise.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

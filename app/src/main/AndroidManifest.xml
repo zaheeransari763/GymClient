@@ -2,9 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.gymclient">
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,7 +13,16 @@
         android:roundIcon="@drawable/applogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AbsActivity"></activity>
+        <activity
+            android:name=".item_message_user"
+            android:exported="false" />
+        <activity
+            android:name=".item_message_bot"
+            android:exported="false" />
+        <activity
+            android:name=".Chatactivity"
+            android:exported="false" />
+        <activity android:name=".AbsActivity" />
         <activity android:name=".ShoulderActivity" />
         <activity android:name=".LegsActivity" />
         <activity android:name=".TrainersActivity" />
@@ -33,7 +42,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />

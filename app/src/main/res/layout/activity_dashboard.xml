@@ -9,13 +9,6 @@
     android:background="@drawable/clientback5"
     android:orientation="vertical">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/dashline"/>
-
-
-
 
     <LinearLayout
         android:id="@+id/linearLayout4"
@@ -164,6 +157,11 @@
                     android:textColor="#fff"
                     android:textSize="25sp" />
 
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/dashline" />
+
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -300,6 +298,21 @@
 
 
     </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/chat_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ffffff"
+        android:contentDescription="@string/app_name"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94"
+        app:srcCompat="@drawable/chatbot" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

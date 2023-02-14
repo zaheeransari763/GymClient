@@ -2,7 +2,6 @@
   <library name="Gradle: com.google.firebase:firebase-auth:19.2.0@aar">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e0b67f490d8238efae5f7459b4dae8bc/jetified-firebase-auth-19.2.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e0b67f490d8238efae5f7459b4dae8bc/jetified-firebase-auth-19.2.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e0b67f490d8238efae5f7459b4dae8bc/jetified-firebase-auth-19.2.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
